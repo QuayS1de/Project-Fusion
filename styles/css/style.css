@@ -101,6 +101,7 @@ header .content .content__element-position a i {
 
 header .content .content__element-position .content__element-position__arrow-down-scroll {
   margin-bottom: 100px;
+  margin-left: 110px;
 }
 
 header .content .content__element-position .content__element-position__arrow-down-scroll i {
@@ -153,4 +154,59 @@ header .content .content__element-position .content__element-position__arrow-dow
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section .section__pre-section .section__pre-section__block-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 115px;
+  margin-bottom: 150px;
+}
+
+.block-card {
+  max-width: 250px;
+}
+
+.block-card > i {
+  color: #feb960;
+  font-size: 14px;
+  margin-bottom: 24px;
+  padding: 8px;
+  border: 1px solid #feb960;
+}
+
+.block-card h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.block-card p {
+  font-size: 14px;
+  margin-bottom: 24px;
+  line-height: 27px;
+}
+
+.block-card a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.block-card a i {
+  color: #feb960;
+  margin-left: 6px;
 }
