@@ -98,3 +98,59 @@ header .content .content__element-position a i {
   color: #f7ac53;
   padding-left: 5px;
 }
+
+header .content .content__element-position .content__element-position__arrow-down-scroll {
+  margin-bottom: 100px;
+}
+
+header .content .content__element-position .content__element-position__arrow-down-scroll i {
+  color: #f7ac53;
+  opacity: .6;
+}
+
+.title-topic {
+  text-align: center;
+  max-width: 750px;
+}
+
+.title-topic span {
+  display: block;
+  margin: 0 auto;
+  height: 125px;
+  width: 1px;
+  margin-bottom: 25px;
+  background-color: #feb960;
+  color: #fff;
+}
+
+.title-topic h4 {
+  font-size: 16px;
+  color: #feb960;
+  margin-bottom: 40px;
+}
+
+.title-topic h1 {
+  font-size: 40px;
+  line-height: 65px;
+}
+
+.pre-section {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.section {
+  width: 100%;
+}
+
+.section .section__pre-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
