@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
             adaptiveWidth: true,
             slidesToShow: 1,
             slidesToScroll: 1,
+            fade: true,
             autoplay: true,
             autoplaySpeed: 5000,
             responsive: [{

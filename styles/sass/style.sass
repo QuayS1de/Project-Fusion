@@ -166,25 +166,78 @@ header
     display: flex
     align-items: flex-start
 
+.section
+    .section__pre-section2
+        max-width: 1300px
+        margin: 0 auto
+        // background-color: #eee
+        .section__pre-section2__section-slider
+            .section__pre-section2__section-slider__slider
+                .section__pre-section2__section-slider__slider__slider-item
+                    div
+                        &:nth-child(2)
+                            width: 75%
+                            margin: 0 auto
+                    .section__pre-section2__section-slider__slider__slider-item__project-number
+                        position: absolute
+                        top: 0
+                        left: 0
+                        user-select: none
+                        span
+                            display: block
+                            width: 1px
+                            height: 125px
+                            background-color: #feb960
+                            margin-bottom: 24px
+                        h4
+                            font-size: 14px
+                            color: #feb960
+                            text-transform: uppercase
+                            margin-bottom: 24px
+                            font-weight: 500
+                        h1
+                            font-size: 55px
+                            font-weight: 500
+                    .section__pre-section2__section-slider__slider__slider-item__project-details
+                        position: absolute
+                        right: 0
+                        bottom: 0
+                        // width: 10%
+                        a
+                            display: block
+                            font-size: 14px
+                            color: #fff
+                            text-transform: uppercase
+                            margin-bottom: 24px
+                            i
+                                margin-left: 7px
+                                color: #feb960
+                        span
+                            display: block
+                            width: 1px
+                            height: 125px
+                            background-color: #feb960
+                            user-select: none
 .section-slider
-    max-width: 1000px
+    max-width: 1300px
+    margin: 0 auto
     .slider
         display: flex
         position: relative
         flex-direction: column
         .slider-item
             display: flex
-            width: 1000px
+            align-items: center
             flex-wrap: wrap
-            .slider-item__pic1
+            .pic1
                 background-image: url('../../img/slider1.jpg')
-            .slider-item__pic2
+            .pic2
                 background-image: url('../../img/slider2.jpg')
-            .slider-item__pic3
+            .pic3
                 background-image: url('../../img/slider3.jpg')
-            .slider-item__pic4
+            .pic4
                 background-image: url('../../img/slider4.jpg')
-            .slider-item__pic5
+            .pic5
                 background-image: url('../../img/slider5.jpg')
             .pic1,
             .pic2,
